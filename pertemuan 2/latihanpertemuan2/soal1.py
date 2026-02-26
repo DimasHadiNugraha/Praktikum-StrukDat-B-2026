@@ -6,22 +6,20 @@ angka = [10, 20, 30, 40, 50]
 4. Hitung rata-rata angka setelah perubahan data
 5. Tampilkan seluruh isi list setelah perubahan.
 '''
-angka = [10, 20, 30, 40, 50]
+
 #1
-thislist = [10, 20, 30, 40, 50]
+angka = [10, 20, 30, 40, 50]
 
-thislist.append("60")
+angka.append(60)
 
-print (thislist)
+print (angka)
 
 #2
-thislist = [10, 20, 30, 40, 50]
-thislist.pop(1)
-
-print (thislist)
+angka.remove(20)
+print(angka)
 
 #3
-angka = [10, 20, 30, 40, 50]
+
 nilaimax = max(angka)
 nilaimin = min(angka)
 
@@ -29,7 +27,10 @@ print('angkat tertinggi:',max(angka))
 print('angkat terrendah:',min(angka))
 
 #4
-angka = [10,30,40,50,60]
+rata_rata = sum(angka) / len(angka)
+print(rata_rata)
+
+print(angka)
 
 
 
