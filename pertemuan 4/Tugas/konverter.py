@@ -1,20 +1,15 @@
-# konverter.py
 from kurs import data_kurs
 
-def konversi(dari, ke, jumlah):
-    # Jika mata uang sama
+def konversi(dari, ke, hasil):
+    #jika dari dan ke nya sama maka hasilnya tetap
     if dari == ke:
-        return jumlah
-
-    # Jika dari IDR ke mata uang lain
+        return hasil
+    #jika dari idr maka akan dibagi
     if dari == "IDR":
-        return jumlah / data_kurs[ke]
-
-    # Jika ke IDR
+        return hasil / data_kurs[ke]
+    #jika ke sama sengan idr maka akan dikali
     if ke == "IDR":
-        return jumlah * data_kurs[dari]
-
-    # Jika bukan IDR ke bukan IDR
-    # Ubah dulu ke IDR lalu ke mata uang tujuan
-    jumlah_idr = jumlah * data_kurs[dari]
+        return hasil * data_kurs[dari]
+    #jika keduanya bukan dari idr makan akan dikonversi ke idr
+    jumlah_idr = hasil * data_kurs[dari]
     return jumlah_idr / data_kurs[ke]

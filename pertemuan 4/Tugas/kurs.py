@@ -1,4 +1,4 @@
-#menyimpan data kurs mata uang terhadap uang terhadap IDR 
+#menyimpan data kurs mata uang dalam bentuk dictionary
 data_kurs= {
     "USD": 16875,
     "EUR": 19995,
