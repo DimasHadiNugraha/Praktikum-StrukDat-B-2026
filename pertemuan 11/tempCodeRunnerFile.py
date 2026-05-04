@@ -1,0 +1,1 @@
+print(f'[info]jumlah pasien menunggu: {q.size()}orang')

@@ -91,7 +91,7 @@ for i in transaksi:
 
 #b
 transaksi += [{"produk": "polio", "harga": 1000, "jumlah": 10},
-{"produk": "krayon", "harga": 15000, "jumlah": 5}]
+            {"produk": "krayon", "harga": 15000, "jumlah": 5}]
 print(transaksi)
 
 for i in range(len(transaksi)):

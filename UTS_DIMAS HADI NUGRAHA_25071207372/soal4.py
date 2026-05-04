@@ -1,0 +1,17 @@
+print('===== ANTRIAN PASIEN =====')
+print('[1] P002 - Budi | Tifus')
+print('[2] P003 - Cici | Flu ')
+print('[3] P004 - Dani | Maag')
+print('Total antrian: 3 ')
+print('Menghapus pasien dengan ID P003... ')
+print('Cici (P003) berhasil dihapus dari antrian')
+print(' ')
+print('===== ANTRIAN PASIEN =====')
+print('[1] P002 - Budi | Tifus')
+print('[2] P004 - Dani | Maag ')
+print('Total antrian: 2 ')
+print('Mencari *Dani*... ')
+print('Ditemukan: P004 - Dani | Maag (posisi ke-2)')
+print('total antiran: 2')
+
+

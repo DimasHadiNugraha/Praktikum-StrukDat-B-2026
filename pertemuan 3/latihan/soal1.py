@@ -14,7 +14,6 @@ mole1 = Mole("gatot","miya","nana")
 mole2 = Mole("nana","miya","nana")
 mole3 = Mole("parsa","valen","saber")
 
-
 mole1.tampilkan_hero()
 mole2.tampilkan_hero()
 mole2.ubah_hero('arlot')
