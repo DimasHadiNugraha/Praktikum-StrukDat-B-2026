@@ -60,10 +60,10 @@ bst.insert_root(3)
 def in_order(node):
     if node != None:
             in_order(node.left)
-            print(node.data,end=' ')
+            print(node.data,end='-')
             in_order(node.right)
 
-in_order(bst.root,)
+in_order(bst.root)
 print(' ')
 print('--------')
 
@@ -114,7 +114,7 @@ tree.insert_left(tree.root.right.right, 'H')
 def in_order(node):
     if node != None:
             in_order(node.left)
-            print(node.data,end=' ')
+            print(node.data,end='-')
             in_order(node.right)
 
 in_order(tree.root)
